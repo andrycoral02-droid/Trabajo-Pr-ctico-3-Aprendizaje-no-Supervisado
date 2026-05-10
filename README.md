@@ -1,25 +1,16 @@
 # Trabajo Práctico 3: Aprendizaje No Supervisado
 
 ## Dataset
-
-**Seeds - Semillas de Trigo**  
-Fuente: https://www.kaggle.com/datasets/jmcaro/wheat-seedsuci
-
-El dataset contiene medidas físicas de granos de trigo de 3 variedades distintas: Kama, Rosa y Canadian. Tiene 7 variables numéricas (área, perímetro, compacidad, largo del grano, ancho del grano, coeficiente de asimetría y largo del surco) y 152 muestras sin valores nulos.
-
 ## Objetivo
-
-Aplicar técnicas de aprendizaje no supervisado (PCA y K-means) para explorar la estructura del dataset sin usar las etiquetas de variedad, y comparar los resultados obtenidos con distintas versiones del dataset.
+Aplicar técnicas de aprendizaje no supervisado (PCA y K-means) para explorar la estructura del dataset sin usar las etiquetas de variedad y comparar los resultados obtenidos con distintas versiones del dataset.
 
 ## Estructura del repositorio
-
 ```
 ├── trabajo_practico_3_seeds.ipynb   # Notebook principal
 └── README.md                        # Este archivo
 ```
 
 ## Pasos realizados
-
 1. Carga y exploración del dataset
 2. Estandarización de variables con `StandardScaler`
 3. PCA completo con scree plot de varianza explicada
